@@ -1,0 +1,5 @@
+In this lecture i have studied about frontend and backend and how frontend is connected with backend and backend is connected with database.
+->for frontend we use React
+->for backend we use Node + Express
+->for database we use mongoDb
+by using all these we can sucessfully host a website
