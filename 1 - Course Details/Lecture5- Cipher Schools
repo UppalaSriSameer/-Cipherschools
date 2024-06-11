@@ -1,0 +1,76 @@
+HTML code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css1.css" />
+    <title>Page title</title>
+</head>
+<body>
+    <div><h1>This is a header</h1>
+        <p id="Mypara">HI my name is sameer</p>
+        <div>    <p class="center-para">This is a centered paragraph</p>
+        </div>
+        <section>
+            <p>this is not a direct decendent</p>
+        </section>
+    </div>
+    <p>This is adjacent to div</p>
+    
+    <Section>
+        <p>This is a para inside a section</p>
+    </Section>
+    <p>This is adjacent to a section</p>
+    <p>This is after the paragraph which is adjacent to section</p>
+    <div>
+        <a href="https://google.com" target="_blank">google
+        </a>
+    </div>
+
+</body>
+</html>
+
+CSS Code
+
+#Mypara {
+    text-align: center;
+}
+
+.center-para{
+    text-align: center;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, .center-para{
+    text-align: center;
+    color: brown;
+}
+
+div p{
+    background-color: yellow;
+}
+
+div > p{
+    background-color: red;
+}
+
+div+p{
+    background-color: aqua;
+}
+
+section ~ p{
+    background-color: blueviolet;
+}
+
+p:hover{
+    background-color: cyan;
+}
+
+a[target]{
+    background-color: green;
+}
