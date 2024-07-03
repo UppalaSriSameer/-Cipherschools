@@ -1,0 +1,76 @@
+// var x=15;
+
+// {
+//     const x =5;
+//     console.log(x);
+    
+// }
+
+// console.log(x);
+
+// var x = function(x,y){
+//     return x+y;
+// }
+
+// const x=(x,y)=>x+y;
+// console.log(x(5,6));
+
+// const q1 =["jan","feb","mar"]
+// const q2 =["Apr","may","jun"]
+// const q3 =["jul","Aug","sep"]
+// const q4 =["oct","nov","dec"]
+
+// const year=[...q1,...q2,...q3,...q4]
+// console.log(year)
+
+// const num=[1,2,3,4,5]
+// let maxv=Math.max(...num)
+// console.log(maxv)
+
+// let sum=0
+// for(let n of num){
+//     sum=sum+n
+// }
+// console.log(sum)
+
+// const fruits=new Map([["apples",500],["oranges",200],["bananas",200]]);
+// console.log(fruits);
+
+// var letters=new Set();
+// letters.add("a")
+// letters.add("c")
+// letters.add("b")
+// console.log(letters)
+
+// class car{
+//     constructor(name, mfgyear){
+//         this.name=name;
+//         this.mfgyear=mfgyear;
+//     }
+// }
+
+// const mycar1=new car("BMW",2020);
+// const mycar2=new car("Porsche",2022);
+// console.log(mycar1, mycar2);
+
+// const Mypromise=new Promise((resole, reject)=>{
+//     setTimeout(()=>{
+//         console.log("This is inside promise");
+//             resolve();
+//     },2000);
+// });
+
+// const person={
+//     firstname:"john",
+//     age: 30,
+//     eyecolor: "blue",
+// };
+
+// let id=Symbol("id");
+// person[id]=140111;
+
+// console.log(person)
+
+// const addtwonumbers = (a, b=10)=>a+b;
+// console.log(addtwonumbers(10))
+
