@@ -1,0 +1,65 @@
+In this lecture we have discussed about the Events that occur in Html.
+Event is any kind of user interaction that occurs.
+Events decide how a user is going to interact with our wesite events can tigger an action in the broswer
+like starting a java script when user clicks on a button.
+
+codes used for understanding Events ->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chaset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <main>
+        <div>
+            <button onclick="dispalyDate()">The time is: </button>   
+            <p id="demo"></p>     
+        </div>
+        
+            <input type="text" id="firstname" onchange="upperCase()"/>
+            <p></p>
+            <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: red; width: 120px; height: 20px; padding: 40px;">
+            </div>
+
+            <p></p>
+
+            <div onmouseup="mUp(this)" onmousedown="mDown(this)" style="background-color: red; width: 120px; height: 20px; padding: 40px;"></div>
+        
+    </main>
+    <script>
+        function dispalyDate(){
+            document.getElementById("demo").innerHTML=new Date();
+        }
+
+        function upperCase(){
+            const x =document.getElementById("firstname");
+            x.value = x.value.toUpperCase();
+        }
+
+        function mOver(obj){
+            obj.innerHTML="Thank You";
+        }
+
+        function mOut(obj){
+            obj.innerHTML="Hover your mouse here"
+        }
+
+        function mDown(obj){
+            obj.style.backgroundColor ="cyan";
+            obj.innerHTML="Release me";
+        }
+
+        function mUp(obj){
+            obj.style.backgroundColor="red";
+            obj.innerHTML="Thank you";
+        }
+    </script>
+
+  </body>
+</html>
+
+
