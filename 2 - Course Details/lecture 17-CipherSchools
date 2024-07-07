@@ -1,0 +1,41 @@
+App.js->
+import logo from './logo.svg';
+import './App.css';
+import {Component} from "react";
+
+class App extends Component {
+  name="CipherSchools"
+  render(){
+    return (
+      <>
+      <div>
+        <p>this is {this.name}</p>
+      </div>
+      <div>
+      <p>Thus is a paragraph an name is {this.name}</p>
+      </div>
+      </>
+    )
+  }
+
+}
+
+export default App;
+
+
+index.js->
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App /> #here we are redering the App class 3 times
+    <App />
+    <App />
+  </React.StrictMode>
+);
+reportWebVitals();
