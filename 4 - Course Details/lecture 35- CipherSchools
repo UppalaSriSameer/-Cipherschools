@@ -1,0 +1,12 @@
+In this lecture we have learned about the difference between Sql and NoSql
+
+SQL (Structured Query Language) databases, like MySQL and PostgreSQL,
+use a relational model with structured schemas and tables to store data,
+making them ideal for applications requiring complex queries and
+transactions with ACID (Atomicity, Consistency, Isolation, Durability) properties.
+They use SQL for defining and manipulating data. In contrast, NoSQL databases,
+such as MongoDB and Cassandra, are designed for more flexible, scalable storage,
+often using a document, key-value, column-family, or graph-based model.
+NoSQL databases excel in handling large volumes of unstructured or semi-structured data,
+providing high availability and horizontal scaling, but typically offer weaker consistency
+guarantees compared to traditional SQL databases.
