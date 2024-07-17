@@ -1,0 +1,5 @@
+In this lecture we have discussed about what is JWT and how it is helpful to us
+JWT means-> JSON Web Tokens
+JWTs are credentials, which can grant access to resources.
+JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties.
+It is commonly used for authentication and information exchange in web applications.
