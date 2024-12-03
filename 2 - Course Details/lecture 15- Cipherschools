@@ -1,0 +1,7 @@
+In this lecture we studied the folder structure of the react application
+which mainly consits of 
+->Public folder
+->Src
+->package.json
+->package-lock.json
+->README.md

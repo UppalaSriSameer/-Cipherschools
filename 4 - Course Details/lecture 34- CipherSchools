@@ -1,0 +1,7 @@
+In this lecture we have learend about Mongodb and how it works as a non-relational database
+
+Mongodb ->
+MongoDB is a popular NoSQL database known for its flexibility and
+scalability, using a document-oriented data model to store JSON-like 
+documents. It is widely used for handling large volumes of unstructured 
+data and supports powerful querying and indexing capabilities.

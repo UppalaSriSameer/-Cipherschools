@@ -1,0 +1,107 @@
+-> Basic Html Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+</head>
+<body>
+    <h1>My Heading</h1>
+    <p>My paragraph</p>
+</body>
+</html>
+
+-> Code with usage of Different type of Headers, Button, Paragraph, Anchor and Image Tags
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+</head>
+<body>
+    <h1>My Heading 1</h1>
+    <h2>My Heading 2</h2>
+    <h3>My Heading 3</h3>
+    <h4>My Heading 4</h4>
+    <h5>My Heading 5</h5>
+    <h6>My Heading 6</h6>
+    <p>My paragraph</p>
+    <p>This is a paragraph</p>
+    <a href="https://cipherschools.com">Go to cipher schools</a>
+    <img src="https://photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg" alt="Back Ground"/>
+    <button>Click Me</button>
+</body>
+</html>
+
+-> Code with usage of Different type of address, quatations, abbrevations
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+</head>
+<body>
+    <blockquote>Cipherschools is Amazing</blockquote>
+    <q>Cipherschools is Amazing</q>
+    <button>Click Me</button>
+    <blockquote cite="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter is a series of seven fantasy novels written by 
+        British author J. K. Rowling. The novels chronicle the
+         lives of a young wizard, Harry Potter, and his friends
+          Hermione Granger and Ron Weasley, all of whom are 
+          students at Hogwarts School of Witchcraft and 
+          Wizardry. The main story arc concerns Harry's 
+          conflict with Lord Voldemort, a dark wizard who 
+          intends to become immortal, overthrow the wizard 
+          governing body known as the Ministry of Magic, and 
+          subjugate all wizards and Muggles (non-magical people)
+          .</blockquote>
+    <p><abbr title="World Health OraniZation">WHO</abbr>
+         is a good Oraganization.</p>
+    <address>
+        taught by Sameer. <br>
+        Visit me on LinkedIn. <br>
+    </address>
+</body>
+</html>
+
+-> Code with usage of Different type lists, Span, Bold, Hr and underline
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+</head>
+<body>
+    <h5>Unordered Lists</h5>
+    <ul>
+        <li><b>Coffee</b></li>
+        <li><u>Milk</u></li>
+        <li>Tea</li>
+    </ul>
+    <hr>
+    <h5>Ordered Lists</h5>
+    <ol>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+    </ol>
+    <hr>
+    <h5>Ordered with Discription</h5>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>--This is a Dark Brown Drink--</dd>
+        <dt><span style="color: Red;">Milk</span></dt>
+        <dd>--This is a White Drink--</dd>
+        <dt></dt>
+    </dl>
+
+</body>
+</html>
